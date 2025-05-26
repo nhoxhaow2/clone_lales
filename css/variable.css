@@ -1,0 +1,116 @@
+:root {
+    --primary-color:#F53855;
+    --text-color:#4F5665;
+    --heading-color: #0B132A;
+    --gray-light: #DDE0E4;
+    --gray-light-medium: #afb5c0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 25px;
+    font-family: 'Rubik',sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-primary{
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--primary-color);
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+}
+
+.btn-outline2 {
+    background-color: transparent;
+    color: var(--primary-color);
+    font-weight: 700;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-rounded {
+    border-radius: 10px;
+    padding: 17px 65px;
+}
+
+.btn-rounded2 {
+    border-radius: 100rem;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-shadow {
+    position: relative;
+}
+.btn-shadow::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 90%;
+    height: 100%;
+    transform: translate(-50%, 50%);
+    background-color: rgba(245, 56, 56, .35);
+    filter: blur(54px);
+    border-radius: inherit;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--heading-color);
+    font-weight: bold;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50/35);
+    text-transform: capitalize;
+}
+
+.heading-small {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--heading-color);
+    margin-bottom: 5px;
+    line-height: calc(30/18);
+}
+.text {
+    line-height: calc(30/16);
+    color: #4F5665;
+    font-size: 16px;
+}
+
+.text-desc {
+    line-height: calc(30/16);
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(30/14);
+    color: var(--text-color);
+}
+.text-medium {
+    font-size: 25px;
+    color: var(--text-color);
+    line-height: calc(30/25);
+    font-weight: 400;
+}

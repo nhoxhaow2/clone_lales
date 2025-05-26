@@ -1,0 +1,33 @@
+.feature {
+    padding-bottom: 130px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0 220px;
+}
+
+.feature-container .heading {
+    margin-bottom: 20px;
+}
+.feature-desc {
+    margin-bottom: 23px;
+    font-size: 16px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 21px;
+    color: var(--text-color);
+    line-height: calc(30/14);
+    font-size: 14px;
+}

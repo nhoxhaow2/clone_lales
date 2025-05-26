@@ -1,0 +1,18 @@
+@import './heading.css';
+@import './variable.css';
+@import './hero.css';
+@import './intro.css';
+@import './feature.css';
+@import '/css/plan.css';
+@import './review.css';
+@import './subscribe.css';
+@import './footer.css';
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    line-height: 1;
+    font-family: "Rubik" , sans-serif;
+}
